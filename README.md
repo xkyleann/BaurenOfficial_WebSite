@@ -22,14 +22,14 @@
   </body> 
 </html>
 ```
---------------------------------------------------------
+
 2. **_UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this_**
 ```html
 <head>
     <meta charset="UTF-8">
   </head>
 ```
---------------------------------------------------------
+
 3. **_Adding [font](https://fonts.google.com/) type_** 
 ```html
 <head>
@@ -41,14 +41,14 @@
 <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
   </head>
 ```
---------------------------------------------------------
+
 4. **_Adding logo to the site_**
 ```html
 <head>
     <a href="#" class="logo"><img src="image/logo.png" alt""></a>
   </head>
 ```
---------------------------------------------------------
+
 5. **_Adding menu to the site_**
 ```html
 <body>
@@ -64,7 +64,7 @@
     </head>
   </body>
 ```
---------------------------------------------------------
+
 6. **_Adding [icons](https://boxicons.com/) such as; profile, cart_**
 ```html
 <body>
@@ -79,6 +79,7 @@
     </head>
   </body>
 ```
+
 ## **Style.css**
 1. **_Simple CSS skeleton must me look like this:_** 
 ```css
