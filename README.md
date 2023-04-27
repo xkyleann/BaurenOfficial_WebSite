@@ -22,14 +22,64 @@
   </body> 
 </html>
 ```
+--------------------------------------------------------
 - UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this:
-
 ```html
 <head>
     <meta charset="UTF-8">
   </head>
 ```
+--------------------------------------------------------
+- Adding [font](https://fonts.google.com/) type 
+```html
+<head>
+    <title>Bauren Offical</title>
+    <!-- CSS-link-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  </head>
+```
 
+--------------------------------------------------------
+- Adding logo to the site
+```html
+<head>
+    <a href="#" class="logo"><img src="image/logo.png" alt""></a>
+  </head>
+```
+--------------------------------------------------------
+- Adding menu to the site
+```html
+<body>
+  <head>
+      <ul class="navmenu">
+              <li><a href="#">home</a></li>
+              <li><a href="#">shop</a></li>
+              <li><a href="#">products</a></li>
+              <li><a href="#">page</a></li>
+              <li><a href="#">docs</a></li>
+          </ul>
+
+    </head>
+  </body>
+```
+--------------------------------------------------------
+- Adding [icons](https://boxicons.com/) such as; profile, cart
+```html
+<body>
+  <head>
+   <div class="nav-icon">
+            <a href="#"><i class='bx bx-search-alt-2'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </head>
+  </body>
+```
 ## **Style.css**
 
 
