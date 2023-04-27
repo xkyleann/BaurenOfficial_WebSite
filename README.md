@@ -14,20 +14,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Webpage</title>
+    <title> My Webpage </title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>This is my first webpage.</p>
-  </body>
+    <h1> Hello, world! </h1>
+    <p> This is my first webpage. </p>
+  </body> 
 </html>
 ```
+- UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this:
 
-
-```HTML
-	DROP TABLE weather ;
-	```
-
+```html
+<head>
+    <meta charset="UTF-8">
+  </head>
+```
 
 ## **Style.css**
 
