@@ -65,7 +65,7 @@
   </body>
 ```
 
-6.**_Adding [icons](https://boxicons.com/) such as; profile, cart_**
+_6._ **_Adding [icons](https://boxicons.com/) such as; profile, cart_**
 ```html
 <body>
   <head>
