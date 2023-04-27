@@ -81,5 +81,31 @@
   </body>
 ```
 ## **Style.css**
-
-
+- Simple CSS skeleton must me look like this: 
+```css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'DotGothic16', sans-serif; 
+    list-style: none;
+    text-decoration: none;
+}
+```
+--------------------------------------------------------
+- To make icons at the left side 
+```css
+header{
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%; /* specifies that the element should have a top and bottom padding of 20 pixels, and a left and right padding of 10% of the element's width. **
+}
+```
+--------------------------------------------------------
