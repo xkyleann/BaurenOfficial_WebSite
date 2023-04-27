@@ -9,7 +9,7 @@
 * [Style.css](https://tldp.org/LDP/abs/html/index.html)
 
 ## **Index.html** 
-- Simple HTML skeleton must me look like this: 
+1. **_Simple HTML skeleton must me look like this:_** 
 ```html
 <!DOCTYPE html>
 <html>
@@ -23,14 +23,14 @@
 </html>
 ```
 --------------------------------------------------------
-- UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this:
+2. **_UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this_**
 ```html
 <head>
     <meta charset="UTF-8">
   </head>
 ```
 --------------------------------------------------------
-- Adding [font](https://fonts.google.com/) type 
+3. **_Adding [font](https://fonts.google.com/) type_** 
 ```html
 <head>
     <title>Bauren Offical</title>
@@ -41,16 +41,15 @@
 <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
   </head>
 ```
-
 --------------------------------------------------------
-- Adding logo to the site
+4. **_Adding logo to the site_**
 ```html
 <head>
     <a href="#" class="logo"><img src="image/logo.png" alt""></a>
   </head>
 ```
 --------------------------------------------------------
-- Adding menu to the site
+5. **_Adding menu to the site_**
 ```html
 <body>
   <head>
@@ -66,7 +65,7 @@
   </body>
 ```
 --------------------------------------------------------
-- Adding [icons](https://boxicons.com/) such as; profile, cart
+6. **_Adding [icons](https://boxicons.com/) such as; profile, cart_**
 ```html
 <body>
   <head>
@@ -81,7 +80,7 @@
   </body>
 ```
 ## **Style.css**
-- Simple CSS skeleton must me look like this: 
+1. **_Simple CSS skeleton must me look like this:_** 
 ```css
 *{
     margin: 0;
@@ -94,7 +93,7 @@
 }
 ```
 --------------------------------------------------------
-- To make icons at the left side 
+2. **_To make icons at the left side_** 
 ```css
 header{
     position: fixed; 
