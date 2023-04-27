@@ -42,14 +42,14 @@
   </head>
 ```
 
-4. **_Adding logo to the site_**
+**_4.Adding logo to the site_**
 ```html
 <head>
     <a href="#" class="logo"><img src="image/logo.png" alt""></a>
   </head>
 ```
 
-5. **_Adding menu to the site_**
+**_5.Adding menu to the site_**
 ```html
 <body>
   <head>
@@ -65,7 +65,7 @@
   </body>
 ```
 
-6. **_Adding [icons](https://boxicons.com/) such as; profile, cart_**
+**_6.Adding [icons](https://boxicons.com/) such as; profile, cart_**
 ```html
 <body>
   <head>
@@ -81,7 +81,7 @@
 ```
 
 ## **Style.css**
-1. **_Simple CSS skeleton must me look like this:_** 
+**_1.Simple CSS skeleton must me look like this:_** 
 ```css
 *{
     margin: 0;
@@ -92,9 +92,8 @@
     list-style: none;
     text-decoration: none;
 }
-```
---------------------------------------------------------
-2. **_To make icons at the left side_** 
+
+**_2.To make icons at the left side_** 
 ```css
 header{
     position: fixed; 
@@ -108,4 +107,4 @@ header{
     padding: 20px 10%; /* specifies that the element should have a top and bottom padding of 20 pixels, and a left and right padding of 10% of the element's width. **
 }
 ```
---------------------------------------------------------
+
