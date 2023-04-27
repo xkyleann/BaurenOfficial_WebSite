@@ -23,14 +23,14 @@
 </html>
 ```
 
-**_2.UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this_**
+**_2. UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this_**
 ```html
 <head>
     <meta charset="UTF-8">
   </head>
 ```
 
-**_3.Adding [font](https://fonts.google.com/) type_** 
+**_3. Adding [font](https://fonts.google.com/) type_** 
 ```html
 <head>
     <title>Bauren Offical</title>
@@ -42,14 +42,14 @@
   </head>
 ```
 
-**_4.Adding logo to the site_**
+**_4. Adding logo to the site_**
 ```html
 <head>
     <a href="#" class="logo"><img src="image/logo.png" alt""></a>
   </head>
 ```
 
-**_5.Adding menu to the site_**
+**_5. Adding menu to the site_**
 ```html
 <body>
   <head>
@@ -81,7 +81,7 @@ _6._ **_Adding [icons](https://boxicons.com/) such as; profile, cart_**
 ```
 
 ## **Style.css**
-**_1.Simple CSS skeleton must me look like this:_** 
+**_1. Simple CSS skeleton must me look like this:_** 
 ```css
 *{
     margin: 0;
@@ -93,7 +93,7 @@ _6._ **_Adding [icons](https://boxicons.com/) such as; profile, cart_**
     text-decoration: none;
 }
 
-**_2.To make icons at the left side_** 
+**_2. To make icons at the left side_** 
 ```css
 header{
     position: fixed; 
