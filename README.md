@@ -9,7 +9,7 @@
 * [Style.css](https://tldp.org/LDP/abs/html/index.html)
 
 ## **Index.html** 
-1. **_Simple HTML skeleton must me look like this:_** 
+**_1. Simple HTML skeleton must me look like this:_** 
 ```html
 <!DOCTYPE html>
 <html>
@@ -23,14 +23,14 @@
 </html>
 ```
 
-2. **_UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this_**
+**_2.UTF-8 is a widely used character encoding that can represent all characters in the Unicode standart, which includes almost all characters used in the world's writing system. It can use like this_**
 ```html
 <head>
     <meta charset="UTF-8">
   </head>
 ```
 
-3. **_Adding [font](https://fonts.google.com/) type_** 
+**_3.Adding [font](https://fonts.google.com/) type_** 
 ```html
 <head>
     <title>Bauren Offical</title>
