@@ -94,7 +94,7 @@ _6._ **_Adding [icons](https://boxicons.com/) such as; profile, cart_**
 }
 ```
 
-**_2. To make icons at the left side_
+**_2. To make icons at the left side_**
 ```css
 header{
     position: fixed; 
