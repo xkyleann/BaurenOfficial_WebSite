@@ -10,15 +10,25 @@
 
 ## **Index.html** 
 - Simple HTML skeleton must me look like this: 
-```HTML
-	DROP TABLE weather ;
-	```
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <p>This is my first webpage.</p>
+  </body>
+</html>
+```
+
+
 ```HTML
 	DROP TABLE weather ;
 	```
 
 
 ## **Style.css**
-```CSS
-	DROP TABLE weather ;
-	```
+
+
