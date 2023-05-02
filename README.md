@@ -109,3 +109,10 @@ header{
 }
 ```
 
+**_3. Position of the Logo.png_**
+```css
+.logo img{ /* for fixing logo in the main*/
+    max-width: 120px;
+    height: auto;
+}
+```
