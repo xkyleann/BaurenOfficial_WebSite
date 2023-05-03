@@ -116,3 +116,68 @@ header{
     height: auto;
 }
 ```
+**_4. Position of the navmenu_**
+```css
+.logo img{ /* for fixing logo in the main*/
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu{
+    display: flex; /* all nav menu will be in one*/
+
+}
+.navmenu a{ /*in nav menu*/
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{ /*in nav menu*/
+    color: #EE1C47;/*when you click icon it will change to this color*/
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{ /*i = icons element within an element with the class of .nav-icon is set to 16 pixels, and a margin of 5 pixels is added to the right side of the element.*/
+    margin: 20px;
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color:#EE1C47
+}
+```
+
+**_5. Setting menu icons_**
+```css
+#menu-icon{ 
+    font-size: 35px;
+    color: #2c2c2c;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+section{
+    padding: 5% 10%;
+}
+```
+
+**_5. Setting homepage background_**
+```css
+.main-home{   /*Main page adding picture and position(s) */
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/banner-3.png);
+    background-position: center;
+    background-size: cover;
+}
+```
